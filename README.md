@@ -101,7 +101,9 @@ for executing the code.
   python main.py -h
   ```
 
-11. The model parameters get stored in the folder `Continuous_Control_using_DDPG/checkpoints/`. The checkpoints get stored for any network scoring above 30. The plots for the training get stored in `Continuous_Control_using_DDPG/plots/`.
+11. The model parameters get stored in the folder `Continuous_Control_using_DDPG/checkpoints/`. The checkpoints get stored for any network scoring above 30. Our best trained checkpoints are kept in the folder `Continuous_Control_using_DDPG/best_checkpoints/`. The plots for the training get stored in `Continuous_Control_using_DDPG/plots/`.
+
+12. The Jupyter notebook solution `Continuous_Control.ipynb` and the project report `Report.ipynb` are present in the folder `Continuous_Control_using_DDPG/report/`.
 
 13. Below is how the agents were acting without training [for both single agent and 20 agents]. The agents take random actions. 
 
@@ -111,3 +113,6 @@ for executing the code.
 
 <img src="images/trained_1_agent.gif" width="500" height="251"> <img src="images/trained_20_agents.gif" width="500" height="251">
 
+### References
+
+References for the DDPG code was taken from the solutions of Udacity's [BipedalWalker environment](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal) and [Pendulum environment](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum).
